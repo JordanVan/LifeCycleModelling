@@ -1,0 +1,17 @@
+4 states, healthy, cancer, LTC, post cancer. The transition matrix defines the
+probability of transitioning between the states. Note death is NOT part of these
+states, it is treated separately. Each state has its own mortality rate.
+
+The transition to a new period can be broken down into two parts.
+1) Checking for death. There is a chance the individual dies. The mortality rates
+are dependent on the OLD health state. e.g. if you are sick at 72, the chance of
+living into 73 is affected by your sickness.
+2) Changing health states. If the individual survives, then they are transitioned
+into a new health state based on their old health state. Note that it is possible
+to stay in the same health state e.g. remaining healthy.
+
+Because of the complexity of the states, the insurance policies are priced via
+simulations. The number of simulations is chosen such that the calculated prices
+do not fluctuate much between simulations.
+
+Note:Incidence rates are not used properly. This model is just illustrative though.
