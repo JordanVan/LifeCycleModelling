@@ -1,3 +1,5 @@
+#Testing github
+
 #NTS: Read Julia performance tips. I should use Git.
 #GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL GLOBAL
 
